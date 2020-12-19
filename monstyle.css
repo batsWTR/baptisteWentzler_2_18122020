@@ -24,7 +24,6 @@ a:hover{
     border-bottom: #0065fc 3px solid;
 }
 
-
             /* HEADER   */
 
 header{
@@ -79,14 +78,25 @@ header li{
     header{
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
     }
 
     #inscription{
         position: initial;
-    }
+        font-weight: 400;
+    } 
 
     header li{
         margin: 0px 10px;
+    }
+
+    a{
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    a:hover{
+        border-bottom: none;
+        border-top: #0065fc 2px solid;
     }
 }
 
