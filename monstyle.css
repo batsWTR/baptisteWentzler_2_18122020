@@ -4,5 +4,75 @@
 *{
     margin: 0px;
     padding: 0px;
+    
+}
+
+body{
     font-family: Ralway;
+    background-color: white;
+    margin: 0px 15px;
+}
+
+
+
+
+            /* HEADER   */
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+header img{
+    width: 30%;
+    height: auto;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#inscription{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* Tab   */
+
+@media screen and (min-width:480px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #inscription{
+        position: initial;
+    }
+
+    header li{
+        margin: 0px 10px;
+    }
+}
+
+
+/* PC   */
+
+@media screen and (min-width:1200px){
+
 }
