@@ -13,14 +13,14 @@ body{
 
 }
 
-a{
+header a{
     display: block;
     text-decoration: none;
     padding-bottom: 20px;
     color: #0065fc;
 }
 
-a:hover{
+header a:hover{
     border-bottom: #0065fc 3px solid;
 }
 
@@ -29,13 +29,13 @@ a:hover{
 header{
     display: flex;
     flex-direction: column;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 header img{
-    width: 30%;
+    width: 110px;
     height: auto;
-    margin-left: 15px;
+    margin-left: 18px;
 }
 
 header ul{
@@ -55,14 +55,15 @@ header li{
 
 #inscription{
     position: absolute;
-    right: 0px;
-    padding-right: 15px;
-    top: 15px;
+    right: 15px;
+    top: 25px;
     font-weight: bold;
 }
 
 #inscription a:hover{
     border-bottom: none;
+    margin-right: 4px;
+    margin-top: 3px;
 }
 
 
@@ -79,6 +80,16 @@ header li{
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        margin-top: 4px;
+        padding-top: 0px;
+
+    }
+    header img{
+        padding-top: 40px;
+    }
+
+    header ul{
+        margin-top: 0px;
     }
 
     #inscription{
@@ -87,16 +98,22 @@ header li{
     } 
 
     header li{
-        margin: 0px 10px;
+        padding: 0px 30px;
     }
 
-    a{
+    #inscription a:hover{
+        border-bottom: none;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    header a{
         padding-bottom: 0px;
         padding-top: 40px;
     }
-    a:hover{
+    header a:hover{
         border-bottom: none;
-        border-top: #0065fc 2px solid;
+        border-top: 3px solid #0065fc;
     }
 }
 
@@ -105,6 +122,13 @@ header li{
 
 @media screen and (min-width:1200px){
 
+
+    header{
+        margin: 4px 50px ;
+    }
+    header li{
+        padding: 0px 60px;
+    }
 }
 
 
