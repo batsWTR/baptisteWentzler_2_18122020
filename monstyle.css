@@ -213,10 +213,12 @@ section h2{
 /*-------------------------------- POPULAIRES   */
 #populaires{
     background-color: #F2F2F2;
-    border-radius: 25px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #title-pop{
@@ -236,31 +238,38 @@ section h2{
 
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     background-color: white;
-    padding: 6px;
-    margin: 10px;
-    border-radius: 10px;
+    padding: 0px;
+    margin: 10px 0;
+
+    border-radius: 25px;
+    box-shadow: -0.6em 0.6em 0.8em #dfdede;
 }
 
 .img-pop{
     width: 126px;
-    height: 136px;
+    height: 135px;
     overflow: hidden;
+    border-radius: 25px 0 0 25px;
 
 }
 
 .img-pop img{
-    height: 136px;
-    width: auto;
+    height: 155px;
+    width: 220px;
 }
 .content-pop{
-    margin: 15px;
+    margin:  0 15px;
+    padding: 10px 0;
     font-size: 0.9em;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
 }
 /* colors for stars  */
 .blue{
@@ -278,7 +287,7 @@ section h2{
 
 /*--------------------------------------------- Tab and landscape  */
 
-@media screen and (min-width:480px){
+@media screen and (min-width:420px){
     header{
         flex-direction: row;
         justify-content: space-between;
