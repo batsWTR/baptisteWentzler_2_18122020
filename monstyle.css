@@ -218,9 +218,16 @@ section h2{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+#populaires-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #title-pop{
@@ -330,7 +337,54 @@ section h2{
 
 #plus{
     margin: 15px 0;
+    font-size: 1.2em;
 }
+
+
+
+/*--------------------------------------------  activites    */
+
+#activites{
+    background-color: white;
+}
+
+#activites h2{
+    margin: 25px 0;
+}
+
+#activites-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-activites{
+    width: 335px;
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 25px 25px 0 0;
+
+}
+
+.card-activites h3{
+    margin: 20px 15px;
+}
+
+.img-activites{
+    overflow: hidden;
+    border-radius: 25px 25px 0 0;
+
+}
+
+.img-activites img{
+
+}
+
 /* colors for stars  */
 .blue{
     color: #0065fc;
@@ -417,6 +471,15 @@ section h2{
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    /*---------------------------------   activites   */
+
+    #activites-container{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
 }
 
 
@@ -446,11 +509,34 @@ section h2{
         margin-right: 20px;
     }
 
-    /* center container */
+    /*------------------------------------- center container */
 
     #center-container{
+        background-color: white;
         display: flex;
         flex-direction: row-reverse;
+
+    }
+
+
+    /*------------------------------------- populaires    */
+
+
+    #populaires{
+        border-radius: 25px;
+    }
+    /*------------------------------------- hebergement     */
+
+    #hebergements{
+        background-color: #F2F2F2;
+        margin-right: 30px;
+        border-radius: 25px;
+    }
+
+
+
+    #plus{
+        margin: 25px 50px;
     }
 }
 
