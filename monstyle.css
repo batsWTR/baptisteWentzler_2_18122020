@@ -266,13 +266,12 @@ section h2{
 }
 
 .img-pop img{
-    height: 180px;
-    width: auto;
-
-    position: relative;
-    bottom: 40px;
-    right: 40px;
+    object-fit: cover;
+    width: 126px;
+    height: 135px;
 }
+
+
 .content-pop{
     margin:  0 15px;
     padding: 10px 0;
@@ -324,10 +323,9 @@ section h2{
 }
 
 .img-hebergements img{
-    max-width: 100%;
+    width: 325px;
     height: auto;
-    position: relative;
-    bottom: 85px;
+    object-fit: cover;
    
 }
 
@@ -379,10 +377,13 @@ section h2{
     overflow: hidden;
     border-radius: 25px 25px 0 0;
 
+
 }
 
 .img-activites img{
-    max-width: 100%;
+    width: 335px;
+    height: auto;
+    object-fit: cover;
 
 
 }
