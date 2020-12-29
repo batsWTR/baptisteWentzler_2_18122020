@@ -435,7 +435,7 @@ footer li{
 
 /*--------------------------------------------- Tab and landscape  */
 
-@media screen and (min-width:420px){
+@media screen and (min-width:530px){
     header{
         flex-direction: row;
         justify-content: space-between;
