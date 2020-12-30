@@ -431,14 +431,21 @@ footer ul{
 }
 
 footer h3{
-    margin: 10px 0;
+    margin: 12px 0;
 
 }
 
 footer li{
-    margin: 5px 0;
+    margin: 8px 0;
 
 }
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
 /* colors for stars  */
 .blue{
     color: #0065fc;
@@ -449,9 +456,7 @@ footer li{
 }
 
 
-.card-pop div{
 
-}
 
 /*--------------------------------------------- Tab and landscape  */
 
@@ -519,7 +524,7 @@ footer li{
     }
 
     /*------------------------------------- populaires    */
-    
+
     #populaires{
         border-radius: 25px;
     }
