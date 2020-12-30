@@ -537,6 +537,11 @@ footer a{
         border-radius: 25px;
     }
 
+    #populaires-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     /*------------------------------- hebergements  */
     #card-container{
         display: flex;
@@ -617,6 +622,11 @@ footer a{
     }
     section h2{
         margin-right: 20px;
+    }
+
+    /* --------------------------------------- populaires  */
+    #populaires-container{
+        flex-direction: column;
     }
 
     /*------------------------------------- center container */
