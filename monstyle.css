@@ -10,6 +10,7 @@
 body{
     font-family: Ralway, Arial, Helvetica, sans-serif;
     background-color: white;
+    margin: auto;
 
 }
 
@@ -517,6 +518,12 @@ footer li{
         border-radius: 0px 15px 15px 0px;
     }
 
+    /*------------------------------------- populaires    */
+    
+    #populaires{
+        border-radius: 25px;
+    }
+
     /*------------------------------- hebergements  */
     #card-container{
         display: flex;
@@ -547,9 +554,7 @@ footer li{
 
     /* for activites card who have to grow */
     .auto{
-       height: 440px;
-    
-       
+       height: 440px;      
     }
 
     .align{
@@ -595,16 +600,15 @@ footer li{
         background-color: white;
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
 
     }
 
 
-    /*------------------------------------- populaires    */
 
 
-    #populaires{
-        border-radius: 25px;
-    }
+
+    
     /*------------------------------------- hebergement     */
 
     #hebergements{
