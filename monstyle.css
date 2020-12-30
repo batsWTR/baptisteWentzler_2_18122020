@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: Ralway, Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: white;
     margin: auto;
 
@@ -164,6 +164,7 @@ section h2{
 
 .filter-item{
     margin: 10px 0;
+    font-weight: bold;
 }
 
 
@@ -187,8 +188,7 @@ section h2{
 }
 
 .filter-item span{
-    padding: 13px;
-    padding-left: 22px;
+    padding: 13px 25px;
     border-top: 3px solid #F2F2F2;
     border-right: 3px solid #F2F2F2;
     border-bottom: 3px solid #F2F2F2;
